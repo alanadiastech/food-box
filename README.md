@@ -1,2 +1,2 @@
 # food-box
- Aplicativo para pedir comida, desenvolvido com o Pedro SEO da Driven Education.
+ Aplicativo para pedir comida, desenvolvido com o Pedro da Driven Education.
