@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>FoodBox</h1>
+            <h2>Monte seu box e receba em 15 minutos!</h2>
+        </div>
+        <h3>Primeiro, seu prato.</h3> 
+        <div id="chicken" class="product"  onclick="escolherFrango()">
+            <img src="https://cdn.pixabay.com/photo/2017/07/16/12/39/chicken-2509164_960_720.jpg" alt="">
+            <h4>Frango Yin Yang</h4>
+            <p>Um pouco de batata, um pouco de salada.</p>
+            <p><strong>R$ 19,90</strong></p>
+        </div>
+        <div id="fish" class="product"  onclick="escolherPeixe()">
+            <img src="https://cdn.pixabay.com/photo/2016/06/28/17/32/salmon-1485014_960_720.jpg" alt="">
+            <h4>Salmão Avocado</h4>
+            <p>Um pouco de abacate, um pouco de salada.</p>
+            <p><strong>R$ 39,90</strong></p>
+        </div>
+            <h3>Agora, sua bebida.</h3>
+        <div id="coca" class="product" onclick="escolherCoca()">
+        <img src="https://cdn.pixabay.com/photo/2017/02/25/23/12/coca-cola-2099000_960_720.jpg" />
+        <h4>Coca-cola gelada</h4>
+        <p>Normal, zero ou stévia.</p>
+        <p class="preco">R$ 5,90</p>
+        </div>
+        <div id="refreshment" class="product" onclick="escolherRefresco()">
+        <img src="https://cdn.pixabay.com/photo/2016/12/20/21/43/orange-1921548_960_720.jpg" />
+        <h4>Refresco</h4>
+        <p>Sabor a escolha do cliente.</p>
+        <p class="price">R$ 3,90</p>
+        </div>
+        <h3>Por fim, sua sobremesa.</h3>
+        <div id="pudding" class="product" onclick="escolherPudim()">
+        <img src="https://cdn.pixabay.com/photo/2020/05/04/21/20/creme-caramel-5130830_960_720.jpg" />
+        <h4>Pudim</h4>
+        <p>Saboroso, com formatos diversos.</p>
+        <p class="price">R$ 7,90</p>
+        </div>
+        <div id="icecream" class="product" onclick="escolherSorvete()">
+        <img src="https://cdn.pixabay.com/photo/2018/08/16/22/59/ice-cream-3611698_960_720.jpg" />
+        <h4>Sorvete bem gelado</h4>
+        <p>Saborosos e nutritivos.</p>
+        <p class="price">R$ 6,90</p>
+        </div>
+        <div class="button" onclick="enviarPedido()">
+        Enviar
+        </div>
+        <script src="script.js"></script>
+    </div> 
+</body>
+</html>
